@@ -1,0 +1,85 @@
+img {
+    width: 100%;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 17px;
+    color: #d0011b;
+}
+
+h1::after {
+    content: "|";
+    padding: 0 8px 0 16px;
+    color: rgb(244, 242, 242);
+}
+
+.promise-group {
+    display: flex;
+}
+
+.promise {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 17px;
+    height: 17px;
+    padding: 0 8px;
+}
+
+.check-all {
+    justify-self: start;
+    text-decoration: none;
+    font-size: 14px;
+    color: #d0011b;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    width: 33%;
+}
+
+.product-list {
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 24%;
+    height: 50%;
+}
+.brand img{
+    border-radius: 25px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #d0011b;
+    text-align: center;
+}
