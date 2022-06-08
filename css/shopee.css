@@ -6,7 +6,7 @@ img {
     width: 1200px;
     margin: 0 auto;
 }
-
+/* Header */
 .header {
     padding: 25px;
     display: flex;
@@ -46,7 +46,6 @@ h1::after {
 }
 
 .check-all {
-    justify-self: start;
     text-decoration: none;
     font-size: 14px;
     color: #d0011b;
@@ -54,7 +53,8 @@ h1::after {
     align-items: center;
 }
 
-main {
+/* Main */
+.main {
     display: flex;
     justify-content: space-between;
 }
@@ -74,10 +74,12 @@ main {
     width: 24%;
     height: 50%;
 }
-.brand img{
+
+.brand img {
     border-radius: 25px;
 }
-p {
+
+.description {
     font-size: 18px;
     line-height: 1.5;
     color: #d0011b;
